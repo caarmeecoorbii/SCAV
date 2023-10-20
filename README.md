@@ -11,7 +11,7 @@ He creat dues funcions anomenades **rgb_to_yuv** i **yuv_to_rgb**. Dins de la fu
 ```python
 # Executa l'exercici 1
 python3 rgb_yuv.py 1
-
+```
 ## Exercici 2: Redimensionar i reduir la qualitat d'imatges
 El proposit d'aquest exercici és crear una funció que faci servir FFmpeg per redimensionar una imatge a una nova amplada i alçada, així com per reduir la seva qualitat.
 
