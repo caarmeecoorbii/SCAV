@@ -12,4 +12,40 @@ He creat dues funcions anomenades **rgb_to_yuv** i **yuv_to_rgb**. Dins de la fu
 # Executa l'exercici 1
 python3 rgb_yuv.py 1
 
+## Exercici 2: Redimensionar i reduir la qualitat d'imatges
+El proposit d'aquest exercici és crear una funció que faci servir FFmpeg per redimensionar una imatge a una nova amplada i alçada, així com per reduir la seva qualitat.
+
+```python
+# Executa l'exercici 2
+python3 rgb_yuv.py 2
+
+## Exercici 3: Llegir bytes d'una imatge amb patró serpentina
+El proposit d'aquest exercici és crear una funció que llegueix els bytes d'una imatge en una patró serpertina, llegeix els bytes d'una imatge seguint un patró específic que serpenteja dreta i esquerra a travñes de les files i les columnes de la imatge.
+
+```python
+# Executa l'exercici 3
+python3 rgb_yuv.py 3
+
+## Exercici 4: Conversió d'imatges a blanc i negre i compressió extrema:
+El proposit d'aquest exercici és crear una funció que utitzi FFmpeg per convertir una imatge a blanc i negre i aplicar una compressió extrema.
+
+```python
+# Executa l'exercici 4
+python3 rgb_yuv.py 4
+
+## Exercici 5: Aplicar Run-Length-Encoding (RLE) a una seqüència de bytes
+El proposit d'aquest exercici és crear una funció que apliqui l¡algorisme RLE a una seqüència de bytes.
+
+```python
+# Executa l'exercici 5
+python3 rgb_yuv.py 5
+
+## Exercici 6: Conversió de la DCT
+El proposit d'aquest exercici és crear una classe que realitza la DCT i la IDCT en una imatge.
+
+```python
+# Executa l'exercici 6
+python3 rgb_yuv.py 6
+
+
 
