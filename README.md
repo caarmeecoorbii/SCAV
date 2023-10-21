@@ -50,7 +50,11 @@ python3 rgb_yuv.py 4
 ```
 
 ## Exercici 5: Aplicar Run-Length-Encoding (RLE) a una seqüència de bytes
-El proposit d'aquest exercici és crear una funció que apliqui l¡algorisme RLE a una seqüència de bytes.
+El propòsit d'aquest exercici és crear una funció que apliqui l'algorisme RLE a una seqüència de bytes. 
+
+He creat la funció **codificacio_run_length**. Aquesta pren una seqüència de bytes i aplica l'algorisme RLE, aquest compta les repeticions consecutives del mateix valor i les emmagatzema com a parelles (valor, nombres de repeticions).
+
+Dins de la funció **main** es verifica si es selecciona adequadament aquest exercici. Es defineix una seqüència de bytes, la qual es pot modificar. Seguidament, es crida la funció **codificacio_run_length** i s'imprimeix aquesta seqüència RLE per pantalla.
 
 ```python
 # Executa l'exercici 5
