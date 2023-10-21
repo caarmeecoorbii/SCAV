@@ -28,7 +28,7 @@ python3 rgb_yuv.py 2
 ## Exercici 3: Llegir bytes d'una imatge amb patró serpentina
 El proposit d'aquest exercici és crear una funció que llegueix els bytes d'una imatge en una patró serpertina, llegeix els bytes d'una imatge seguint un patró específic que serpenteja dreta i esquerra a travñes de les files i les columnes de la imatge.
 
-He creat la funció **serpentine** llegeix els bytes d'una imatge seguint un patró de serpentina, zigzaguejant a través de les files i les columnes de la imatge. La funció a través d'un bucle recorre els bytes de la imatge seguint aquest patró.
+He creat la funció **serpentine**  que llegeix els bytes d'una imatge seguint un patró de serpentina, zigzaguejant a través de les files i les columnes de la imatge. La funció a través d'un bucle recorre els bytes de la imatge seguint aquest patró.
 
 Dins la funció **main** es verifica si es selecciona adequadament aquest exercici. Es defineix la imatge que el vol utilitzar, aquesta es pot modificar. Seguidament, es crida a la funció **serpentine** i s'imprimeixen els primers 20 bytes.
 
@@ -39,6 +39,10 @@ python3 rgb_yuv.py 3
 
 ## Exercici 4: Conversió d'imatges a blanc i negre i compressió extrema:
 El proposit d'aquest exercici és crear una funció que utitzi FFmpeg per convertir una imatge a blanc i negre i aplicar una compressió extrema.
+
+He creat la funció **convert_to_bw_width_hard_compression** per convertir la imatge d'entrada en blanc i negre i aplicar una compressió extrema. Aquesta funció utilitza la comanda **ffmpeg -i imatge_entrada -vf format=gray -crf 51 imatge_sortida** on -i imatge_entrada especifica la imatge d'entrada, -vf format=gray utilitza el filtre de vídeo de FFmpeg per convertir la imatge a blanc i negre, crf 51 controla la compressió de la imatge (un valor elevat com 51 representa una compressió extrema, el que resulta en una pèrdua significa).
+
+Dins la funció **main** es verifica si es selecciona adequadament aquest exercici. Es defineix la imatge d'entrada i el nom de la imatge de sortida. Seguidament, es crida la funció **convert_to_bw_with_hard_compression**.
 
 ```python
 # Executa l'exercici 4
