@@ -14,6 +14,9 @@ python3 rgb_yuv.py 1
 ```
 ## Exercici 2: Redimensionar i reduir la qualitat d'imatges
 El proposit d'aquest exercici és crear una funció que faci servir FFmpeg per redimensionar una imatge a una nova amplada i alçada, així com per reduir la seva qualitat.
+He creat una funció anomenada **resize_and_lower_quality** per redimensionar l'imatge d'entrada a una nova amplada i sortida, així com es redueix la seva qualitat. Aquesta funció utilitza la comanda **ffmpeg -i image_entrada -vf 'scale=amplada:alcada' -q:v qualitat -frames:v 1 image_sortida**, on -i imatge_entrada especifica la imatge d'entrada, -vf 'scale=amplada:alcada' utilitza el filtre de vídeo FFmpeg per redimensionar la imatge amb una nova amplada i alçada, -q:v qualitat controla la qualitat de sortida de la imatge i -frame:v 1 limita la sortida a un únic frame.
+
+Dins la funció **main** es verifica si es selecciona adequadament aquest exxercici. Es defineix l'imatge d'entrada, l'imatge de sortida, l'amplada,l'alçada i la qualitat, paràmetres que es poden modifcar. Seguidament, es crida a la funció **resize_and_lower_quality**.
 
 ```python
 # Executa l'exercici 2
