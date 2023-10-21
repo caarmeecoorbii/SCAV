@@ -62,7 +62,12 @@ python3 rgb_yuv.py 5
 ```
 
 ## Exercici 6: Conversió de la DCT
-El proposit d'aquest exercici és crear una classe que realitza la DCT i la IDCT en una imatge.
+El propòsit d'aquest exercici és crear una classe que realitza la DCT i la IDCT en una imatge.
+
+He creat una classe anomenada **DCTConverter** que realitza la DCT i la IDCT en una imatge. Aquesta classe fa servir les llibreries **scipy.fftpack** per realitzar les transformades. Aquesta es defineixen dues funcions: **dct2** (aplica la DCT 2D a una imatge) i **idct2** (aplica la IDCT 2D a una imatge).
+
+Dins de la funció **main** es verifica si es selecciona adequadament aquest exercici. Es defineix la imatge en la qual s'aplicarà les transformades. Seguidament es criden a les funcions **dct2** i **idct2** de la classe DCTConverter. Per últim, es fa un plot amb la imatge d'entrada i l'imatge reconstrüita després d'aplicar la IDCT a la imatge.
+
 
 ```python
 # Executa l'exercici 6
