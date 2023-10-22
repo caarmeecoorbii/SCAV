@@ -14,8 +14,9 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 # Executa l'exercici 1
 python3 rgb_yuv.py 1
 ```
-Resultat de l'exercici 1:
-![L](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici1.png)
+**Resultat de l'exercici 1:**
+
+![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici1.png)
 
 
 ## Exercici 2: Redimensionar i reduir la qualitat d'imatges
@@ -28,7 +29,8 @@ Dins la funció **main** es verifica si es selecciona adequadament aquest exerci
 # Executa l'exercici 2
 python3 rgb_yuv.py 2
 ```
-Resultat de l'exercici 2:
+**Resultat de l'exercici 2:**
+
 ![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici2.JPG)
 
 ## Exercici 3: Llegir bytes d'una imatge amb patró serpentina
@@ -42,7 +44,7 @@ Dins la funció **main** es verifica si es selecciona adequadament aquest exerci
 # Executa l'exercici 3
 python3 rgb_yuv.py 3
 ```
-Resultat de l'exercici 3:
+**Resultat de l'exercici 3:**
 ![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici3.png)
 
 ## Exercici 4: Conversió d'imatges a blanc i negre i compressió extrema:
@@ -56,7 +58,7 @@ Dins la funció **main** es verifica si es selecciona adequadament aquest exerci
 # Executa l'exercici 4
 python3 rgb_yuv.py 4
 ```
-Resultat de l'exercici 4:
+**Resultat de l'exercici 4:**
 ![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici4.JPG)
 
 ## Exercici 5: Aplicar Run-Length-Encoding (RLE) a una seqüència de bytes
@@ -70,7 +72,7 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 # Executa l'exercici 5
 python3 rgb_yuv.py 5
 ```
-Resultat de l'exercici 5:
+**Resultat de l'exercici 5:**
 ![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici5.png)
 
 ## Exercici 6: Conversió de la DCT
@@ -84,7 +86,7 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 # Executa l'exercici 6
 python3 rgb_yuv.py 6
 ```
-Resultat de l'exercici 6:
+**Resultat de l'exercici 6:**
 ![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici6.png)
 
 
