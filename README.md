@@ -73,6 +73,7 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 python3 rgb_yuv.py 5
 ```
 **Resultat de l'exercici 5:**
+
 ![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici5.png)
 
 ## Exercici 6: Conversió de la DCT
