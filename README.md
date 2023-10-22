@@ -15,7 +15,7 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 python3 rgb_yuv.py 1
 ```
 Resultat del exercici 1:
-![L](https://github.com/caarmeecoorbii/SCAV/resultat_exercici1.png)
+![L](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici1.png)
 
 
 ## Exercici 2: Redimensionar i reduir la qualitat d'imatges
