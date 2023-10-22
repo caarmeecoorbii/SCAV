@@ -14,7 +14,7 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 # Executa l'exercici 1
 python3 rgb_yuv.py 1
 ```
-Resultat del exercici 1:
+Resultat de l'exercici 1:
 ![L](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici1.png)
 
 
@@ -28,6 +28,8 @@ Dins la funció **main** es verifica si es selecciona adequadament aquest exerci
 # Executa l'exercici 2
 python3 rgb_yuv.py 2
 ```
+Resultat de l'exercici 2:
+![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici2.JPG)
 
 ## Exercici 3: Llegir bytes d'una imatge amb patró serpentina
 El proposit d'aquest exercici és crear una funció que llegueix els bytes d'una imatge en una patró serpertina, llegeix els bytes d'una imatge seguint un patró específic que serpenteja dreta i esquerra a travñes de les files i les columnes de la imatge.
@@ -39,7 +41,9 @@ Dins la funció **main** es verifica si es selecciona adequadament aquest exerci
 ```python
 # Executa l'exercici 3
 python3 rgb_yuv.py 3
-````
+```
+Resultat de l'exercici 3:
+![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici3.png)
 
 ## Exercici 4: Conversió d'imatges a blanc i negre i compressió extrema:
 El proposit d'aquest exercici és crear una funció que utitzi FFmpeg per convertir una imatge a blanc i negre i aplicar una compressió extrema.
@@ -52,6 +56,8 @@ Dins la funció **main** es verifica si es selecciona adequadament aquest exerci
 # Executa l'exercici 4
 python3 rgb_yuv.py 4
 ```
+Resultat de l'exercici 4:
+![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici4.JPG)
 
 ## Exercici 5: Aplicar Run-Length-Encoding (RLE) a una seqüència de bytes
 El propòsit d'aquest exercici és crear una funció que apliqui l'algorisme RLE a una seqüència de bytes. 
@@ -64,6 +70,8 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 # Executa l'exercici 5
 python3 rgb_yuv.py 5
 ```
+Resultat de l'exercici 5:
+![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici5.png)
 
 ## Exercici 6: Conversió de la DCT
 El propòsit d'aquest exercici és crear una classe que realitza la DCT i la IDCT en una imatge.
@@ -76,6 +84,8 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 # Executa l'exercici 6
 python3 rgb_yuv.py 6
 ```
+Resultat de l'exercici 6:
+![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici6.png)
 
 
 
