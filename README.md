@@ -15,6 +15,8 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 python3 rgb_yuv.py 1
 ```
 Resultat del exercici 1:
+![L](https://github.com/aarmeecoorbii/SCAV/resultat_exercici1.png)
+
 
 ## Exercici 2: Redimensionar i reduir la qualitat d'imatges
 El propòsit d'aquest exercici és crear una funció que faci servir FFmpeg per redimensionar una imatge a una nova amplada i alçada, així com per reduir la seva qualitat.
