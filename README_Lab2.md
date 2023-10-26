@@ -4,12 +4,15 @@
    ```python
    python3 P2-CarmeCorbi.py 1
 
-## Exercici 1: 
+## Exercici 1: Passar de MP4 a MP2 i guardar la informació
+El propòsit d'aquest exercici implica la conversió d'un vídeo del format MP4 al format MP2 i guardar la informació del vídeo en un fitxer d'informació.
+
+
 
 
 ```python
 # Executa l'exercici 1
-python3 rgb_yuv.py 1
+python3 P2-CarmeCorbi.py 1
 ```
 **Resultat de l'exercici 1:**
 
@@ -24,7 +27,7 @@ Dins la funció **main** es verifica si es selecciona adequadament aquest exerci
 
 ```python
 # Executa l'exercici 2
-python3 rgb_yuv.py 2
+python3 P2-CarmeCorbi.py 2
 ```
 **Resultat de l'exercici 2:**
 
@@ -39,7 +42,7 @@ Dins la funció **main** es verifica si es selecciona adequadament aquest exerci
 
 ```python
 # Executa l'exercici 3
-python3 rgb_yuv.py 3
+python3 P2-CarmeCorbi.py 3
 ```
 **Resultat de l'exercici 3:**
 ![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici3.png)
@@ -53,7 +56,7 @@ Dins la funció **main** es verifica si es selecciona adequadament aquest exerci
 
 ```python
 # Executa l'exercici 4
-python3 rgb_yuv.py 4
+python3 P2-CarmeCorbi.py 4
 ```
 **Resultat de l'exercici 4:**
 ![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici4.JPG)
@@ -67,25 +70,13 @@ Dins de la funció **main** es verifica si es selecciona adequadament aquest exe
 
 ```python
 # Executa l'exercici 5
-python3 rgb_yuv.py 5
+python3 P2-CarmeCorbi.py 5
 ```
 **Resultat de l'exercici 5:**
 
 ![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici5.png)
 
-## Exercici 6: Conversió de la DCT
-El propòsit d'aquest exercici és crear una classe que realitza la DCT i la IDCT en una imatge.
 
-He creat una classe anomenada **DCTConverter** que realitza la DCT i la IDCT en una imatge. Aquesta classe fa servir les llibreries **scipy.fftpack** per realitzar les transformades. Aquesta es defineixen dues funcions: **dct2** (aplica la DCT 2D a una imatge) i **idct2** (aplica la IDCT 2D a una imatge).
-
-Dins de la funció **main** es verifica si es selecciona adequadament aquest exercici. Es defineix la imatge en la qual s'aplicarà les transformades. Seguidament, es criden a les funcions **dct2** i **idct2** de la classe DCTConverter. Per últim, es fa un plot amb la imatge d'entrada i la imatge reconstrüida després d'aplicar la IDCT a la imatge.
-
-```python
-# Executa l'exercici 6
-python3 rgb_yuv.py 6
-```
-**Resultat de l'exercici 6:**
-![](https://github.com/caarmeecoorbii/SCAV/blob/main/resultat_exercici6.png)
 
 
 
